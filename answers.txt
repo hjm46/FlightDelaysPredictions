@@ -1,0 +1,19 @@
+1. Report the estimated ground truth car bounding box (choose only one per image; closest to detection; xywh format) and IoU with the closest detection for each car image provided in this assignment. Total of three ground truth bounding boxes, and three IoUs.
+
+cars1
+ground truth: xcenter = 165.5, ycenter = 135, width = 101, height = 66
+IoU = 0.0001435
+
+cars2
+ground truth: xcenter = 110, ycenter = 119.5, width = 150, height = 121
+IoU = 0.000049871
+
+cars3
+ground truth: xcenter = 131, ycenter = 99, width = 56, height = 140
+IoU = 0.0003675
+
+
+-------- Part 2 --------
+2. Report the MeanAP on the validation dataset.
+
+3. Do you notice any discrepencies in performance over different classes? Hint: check the Average Precision per class.
